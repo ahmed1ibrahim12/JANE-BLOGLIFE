@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&family=Readex+Pro:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/********NAVBAR********/
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar i{
+    padding: 0.7rem 1rem;
+}
+
+.navbar i:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+/********HEADER********/
+.head1{
+    padding: 2rem;
+    text-align: center;
+}
+
+.head-title{
+    margin: 1rem;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.head-text{
+    margin: 1rem;
+    font-size: 16px;
+}
+
+.head-text span{
+    background-color: black;
+    color: white;
+    padding: 0 10px;
+}
+
+.head2{
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    padding: 2rem;
+    color: white;
+}
+
+.head2-text{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+}
+
+.head2-text2{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.head-button{
+    opacity: 0.60;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000!important;
+    background-color: #ccc!important;
+    padding: 12px 24px!important;
+    font-weight: 400;
+}
+
+.head-button:hover{
+    opacity: 1;
+}
+
+/********MAIN********/
+.main-container{
+    display: flex;
+    border: 1px solid #ccc!important;
+    padding: 8px 16px!important;
+}
+
+.aside-1{
+    width: 75%;
+    padding: 1rem;
+}
+
+.aside-2{
+    width: 25%;
+    padding: 1rem;
+}
+
+/********Post********/
+.post{
+    background-color: white;
+    padding: 1.5rem;
+}
+
+.post-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.post-date{
+    text-align: center;
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.post-date span{
+    opacity: 0.60;
+}
+
+
+
+.react{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.button-1{
+    border: 1px solid #ccc!important;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #000!important;
+    background-color: #fff!important;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    Font-size: 15px;
+    Font-weight: 700;
+    Line-height: 22.5px;
+}
+
+.button-2{
+    Font-size: 15px;
+    Font-weight: 700;
+    Line-height: 22.5px;
+    color: #fff!important;
+    background-color: #000!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.button-2 span{
+    background-color: white;
+    color: black;
+    padding: 2px 10px;
+}
+
+.button-2:hover #comment-1{
+    display: none !important;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.img-container{
+    width: 90px;
+}
+
+.text-container{
+    margin: 1rem 2rem;
+}
+
+.comment-name{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 30px;
+}
+
+.comment-name span{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+}
+
+.comment-text{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+}
