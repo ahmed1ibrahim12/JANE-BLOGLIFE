@@ -18,6 +18,10 @@ body{
     margin-right: auto;
 }
 
+.m-t{
+    margin-top: 2rem;
+}
+
 /********NAVBAR********/
 .navbar{
     background-color: black;
@@ -104,12 +108,12 @@ body{
 }
 
 .aside-1{
-    width: 75%;
+    width: 70%;
     padding: 1rem;
 }
 
 .aside-2{
-    width: 25%;
+    width: 30%;
     padding: 1rem;
 }
 
@@ -231,3 +235,118 @@ hr{
     Font-weight: 400;
     Line-height: 22.5px;
 }
+
+/********avatar-girl********/
+.avatar-girl{
+    background-color: #000;
+    color: white;
+}
+
+.avatar-girl div{
+    padding: 1rem;
+}
+
+/********pop-comment********/
+.header{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.header p{
+    Font-size: 20px;
+    Font-weight: 400;
+    Line-height: 30px;
+}
+
+.pop-comment{
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    border-bottom: 1px #ccc solid;
+}
+
+.pop-comment:hover{
+    background-color: #ccc;
+}
+
+.img{
+    width: 50px;
+}
+
+.comment-content{
+    margin-left: 1rem;
+}
+/********avatar-girl********/
+.Advertise{
+    margin-top: 2rem;
+}
+
+.ad{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+/********Tags********/
+.tag{
+    background-color: white;
+    padding: 5px;
+}
+
+.p{
+    font-size: small;
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 2px 7px;
+    margin: 5px;
+}
+/********Inspiration********/
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs img{
+    padding: 1rem;
+}
+/********Follow Me********/
+.icons{
+    background-color: white;
+    padding: 1rem;
+}
+
+.icons a{
+    margin: 5px;
+    Font-size: 24px;
+    Font-weight: 40;
+    Line-height: 24px;
+}
+/********Subscribe********/
+.sub{
+    padding: 1rme;
+}
+
+.sub button{
+    color: #fff!important;
+    background-color: #f44336!important;
+    width: 90%;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 1rem;
+}
+
+.sub input{
+    width: 90%;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    display: block;
+    margin: 0 1rem;
+}
+/********avatar-girl********/
