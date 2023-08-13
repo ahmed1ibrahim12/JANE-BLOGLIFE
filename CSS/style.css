@@ -18,6 +18,12 @@ body{
     margin-right: auto;
 }
 
+.main2{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .m-t{
     margin-top: 2rem;
 }
@@ -94,6 +100,7 @@ body{
     background-color: #ccc!important;
     padding: 12px 24px!important;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .head-button:hover{
@@ -328,7 +335,7 @@ hr{
     padding: 1rme;
 }
 
-.sub button{
+.sub .button{
     color: #fff!important;
     background-color: #f44336!important;
     width: 90%;
@@ -349,4 +356,114 @@ hr{
     display: block;
     margin: 0 1rem;
 }
-/********avatar-girl********/
+/********sub-show********/
+.sub-show{
+    position: fixed;
+    background-color: rgba(0,0,0,0.4);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: none;
+}
+
+.sub1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+}
+
+.p1{
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 45px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.p2{
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 22.5px;
+}
+
+.sub .i{
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 24px!important;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #616161!important;
+    color: #fff!important;
+}
+
+footer a{
+    color: #fff!important;
+    background-color: #000!important;
+    padding: 12px 24px!important;
+    text-decoration: none;
+    margin-bottom: 16px!important;
+}
+
+footer i{
+    margin-right: 16px!important;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .main-container{
+        flex-direction: column;
+    }
+    .aside-1{
+        width: 100%;
+    }
+    
+    .aside-2{
+        width: 100%;
+    }
+    .main2{
+        width: 100%;
+        margin: 0;
+    }
+    .container{
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .head2-text2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .navbar{
+        display: none;
+    }
+    .head-title{
+        margin: 0;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 72px;
+    }
+    
+    .head-text{
+        margin: 0;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22.5px;
+    }
+    .container{
+        top: 10%;
+    }    
+}

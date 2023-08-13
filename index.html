@@ -21,8 +21,8 @@
         <a><i class="fa-solid fa-magnifying-glass"></i></a>
     </nav>
 
-    <main class="main">
-        <!--------Header-------->
+    <!--------Header-------->
+    <div class="main2">
         <div style="background-color: white;">
             <div class="head1">
                 <p class="head-title">JANE BLOGLIFE</p>
@@ -32,13 +32,15 @@
                 <div class="container">
                     <p class="head2-text">Jane's</p>
                     <p class="head2-text2">FASHION BLOG</p>
-                    <button class="head-button">Subscribe</button>
+                    <button class="head-button" onclick="func1()">Subscribe</button>
                 </div>
                 <img src="IMAGES/jane.jpg" width="100%" alt="">
             </div>
         </div>
+    </div>
 
-        <!--------MAIN-------->
+    <main class="main">
+            <!--------MAIN-------->
         <main class="main-container">
             <aside class="aside-1">
             <!--------Post-------->
@@ -250,21 +252,27 @@
                         <p>Subscribe</p>
                     </div>
                     
-                    <div style="background-color: white;" class="sub">
+                    <div style="background-color: white;" class="sub"><br>
                         <p style="margin-left: 1rem;">Enter your e-mail below and get notified on the latest blog posts.</p><br>
                         <input type="text" placeholder="Enter e-mail">
-                        <button>Subscribe</button>
+                        <button class="button" onclick="func1()">Subscribe</button>
                     </div>
                 </div>
-
-
             </aside>
         </main>
     </main>
+    <div class="sub-show" id="sub-show">
+        <div style="background-color: white;" class="sub sub1"><br>
+            <div style="display: flex;justify-content: space-between;"><p style="margin-left: 1rem;" class="p1">SUBSCRIBE</p><button class="i" onclick="func2()"><i class="fa-solid fa-x"></i></button></div><br>
+            <p style="margin-left: 1rem;" class="p2">Join my mailing list to receive updates on the latest blog posts and other things.</p><br>
+            <input type="text" placeholder="Enter e-mail">
+            <button class="button">Subscribe</button>
+        </div>
+    </div>
 
-
-
-
+    <footer style="padding:32px">
+        <a href="#"><i class="fa fa-arrow-up"></i>To the top</a>
+      </footer>
 
 
     <script src="JS/style.js"></script>

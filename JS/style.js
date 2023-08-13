@@ -27,3 +27,14 @@ function show3(){
         z.style.display="none";
     }
 }
+
+var b = document.getElementById("button");
+var d = document.getElementById("sub-show");
+
+function func1(){
+    d.style.display="block";
+}
+
+function func2(){
+    d.style.display="none";
+}
