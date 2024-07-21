@@ -387,16 +387,25 @@ hr{
     Line-height: 22.5px;
 }
 
-.sub .i{
-    padding: 8px 16px;
-    vertical-align: middle;
-    overflow: hidden;
-    text-decoration: none;
-    color: inherit;
-    cursor: pointer;
-    white-space: nowrap;
-    font-size: 24px!important;
-    font-weight: bold;
+
+.sub .i {
+    text-decoration: none !important;
+    color: inherit !important;
+    border: none !important;
+    display: inline-block !important;
+    padding: 8px 16px !important;
+    vertical-align: middle !important;
+    overflow: hidden !important;
+    text-decoration: none !important;
+    color: inherit !important;
+    background-color: inherit!important;
+    text-align: center!important;
+    cursor: pointer!important;
+    white-space: nowrap!important;
+    cursor: pointer!important;
+    white-space: nowrap!important;
+    font-size: 24px !important;
+    font-weight: bold!important;
 }
 
 footer{
@@ -444,6 +453,36 @@ footer i{
     .head2-text2{
         display: none;
     }
+    .sub1 {
+        top: 20%;
+        position: relative !important;
+        padding: 0!important;
+        outline: 0!important;
+        box-sizing: inherit!important;
+        margin: 0 10px!important;
+        width: auto !important;
+        justify-content: center;
+        left: 0 !important;
+    }
+    .sub .i {
+        text-decoration: none !important;
+        color: inherit !important;
+        border: none !important;
+        display: inline-block !important;
+        padding: 8px 16px !important;
+        vertical-align: middle !important;
+        overflow: hidden !important;
+        text-decoration: none !important;
+        color: inherit !important;
+        background-color: inherit!important;
+        text-align: center!important;
+        cursor: pointer!important;
+        white-space: nowrap!important;
+        cursor: pointer!important;
+        white-space: nowrap!important;
+        font-size: 24px !important;
+        font-weight: bold!important;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -465,5 +504,5 @@ footer i{
     }
     .container{
         top: 10%;
-    }    
+    }
 }
